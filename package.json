@@ -1,23 +1,21 @@
 {
-  "name": "discord_bot",
+  "name": "test",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon --exec babel-node src/index.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "tsc && node ./dist"
   },
-  "keywords": [],
-  "author": "BrunoDias <baad@sapo.pt>",
-  "license": "MIT",
+  "author": "",
+  "license": "ISC",
   "dependencies": {
-    "discord.js": "^11.4.2",
-    "dotenv": "^7.0.0"
+    "discord.js": "^11.5.0"
   },
   "devDependencies": {
-    "@babel/core": "^7.4.4",
-    "@babel/node": "^7.2.2",
-    "@babel/preset-env": "^7.4.4",
-    "nodemon": "^1.19.0"
+    "@types/dotenv": "^6.1.1",
+    "@types/node": "^12.0.2",
+    "dotenv": "^8.0.0",
+    "nodemon": "^1.19.0",
+    "typescript": "^3.4.5"
   }
 }
